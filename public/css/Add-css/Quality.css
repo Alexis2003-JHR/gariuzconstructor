@@ -1,0 +1,104 @@
+/*Header*/
+.title-quality{
+    max-width: 100%;
+    max-height: 60vh;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    background: #112934;
+}
+.title-quality img{
+    width: 100%;
+    max-height: 10%;
+    opacity: .6;
+}
+.title-quality h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 60px;
+    color: #fdf6e6;
+}
+.header-quality p{
+    position: relative;
+    text-align: justify;
+    width: 80%;
+    left: 10%;
+    margin:30px 0;
+    padding: 10px;
+    background-color: #fdf6e6;
+    color: #112934;
+    box-shadow:  0 0 8px 0 rgba(17, 41, 52, 0.8);
+}
+/*Content*/
+.cont-quality{
+    width: 100%;
+}
+.tarjets-quality{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjet-quality{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 30px 0;
+    text-align: justify;
+}
+.tarjet-quality h3{
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+}
+.tarjet-quality i{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.fa-briefcase{
+    color: rgb(119, 89, 61);
+}
+.fa-hard-hat{
+    color: rgb(226, 163, 3);
+}
+.fa-building{
+    color: #b70e21;
+}
+/*Business ethics*/
+.ethics-container{
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 2px solid #112934;
+}
+.ethics-container h1{
+    text-align: center;
+}
+.ethics-container p{
+    text-align: center;
+    margin: 10px 50px;
+}
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 500px){
+    .tarjet-quality{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 360px){
+    .title-quality h1{
+        font-size: 40px;
+    }
+    .ethics-container p{
+        margin: 0 10px;
+        width: 92%;
+        text-align: justify;
+    }
+}
