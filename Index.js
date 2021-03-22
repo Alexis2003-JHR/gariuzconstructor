@@ -9,7 +9,7 @@ app.set("views",__dirname + "/views");
 //Formulario.
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
-app.use(require("./routes/Index-js"));
+app.use(require("./routes/Index.js"));
 
 //General.
 app.use(express.static(__dirname+"/public"));
