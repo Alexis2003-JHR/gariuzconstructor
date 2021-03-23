@@ -14,7 +14,7 @@ app.use(require("./routes/index.js"));
 //General.
 app.use(express.static(__dirname+"/public"));
 
-app.get("/",(req,res)=>{
+app.get("/index",(req,res)=>{
     res.render("Index");
 });
 
