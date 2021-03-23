@@ -19,18 +19,18 @@ app.get("/",(req,res)=>{
 });
 
 app.get("/servicios",(req,res)=>{
-    res.render("Servicios");
+    res.render("servicios");
 });
 
 /*Nosotros*/
 app.get("/somos",(req,res)=>{
-    res.render("Somos");
+    res.render("somos");
 });
 app.get("/historia",(req,res)=>{
-    res.render("Historia");
+    res.render("historia");
 });
 app.get("/calidad-y-garantia",(req,res)=>{
-    res.render("Calidad");
+    res.render("calidad");
 });
 
 
