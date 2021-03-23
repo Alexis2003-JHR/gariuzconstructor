@@ -2,9 +2,9 @@
   "name": "Gariuz",
   "version": "1.0.0",
   "description": "",
-  "main": "Index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon Index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
