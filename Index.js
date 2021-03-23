@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(require("./routes/Index.js"));
 
 //General.
-app.use(express.static(__dirname+"/public"));
+app.use(express.static(__dirname+"./public"));
 
 app.get("/",(req,res)=>{
     res.render("Index");
