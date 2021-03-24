@@ -43,8 +43,10 @@ body{
 .text-content{
     width: 60%;
 }
-.text-content h1{
+.text-content .title{
+    font-family: 'Dela Gothic One', cursive;
     font-size: 30px;
+    font-weight: 300;
     color: #295276;
 }
 .construimos h1{
