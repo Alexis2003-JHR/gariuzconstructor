@@ -18,11 +18,10 @@ app.get("/",(req,res)=>{
     res.render("index");
 });
 
+/*Nosotros*/
 app.get("/servicios",(req,res)=>{
     res.render("servicios");
 });
-
-/*Nosotros*/
 app.get("/somos",(req,res)=>{
     res.render("somos");
 });
@@ -31,6 +30,9 @@ app.get("/historia",(req,res)=>{
 });
 app.get("/calidad-y-garantia",(req,res)=>{
     res.render("calidad");
+});
+app.get("/work",(req,res)=>{
+    res.render("work");
 });
 
 

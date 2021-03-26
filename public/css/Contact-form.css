@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    background: #112934;
+    background: #112934f7;
     color: rgb(253, 246, 230);
 }
 .contact-title{
@@ -22,7 +22,9 @@
     padding: 30px;
 }
 /*Form*/
-
+.form-container{
+    background: #112934;
+}
 .form-container form{
     display: grid;
     grid-template-columns: 1fr;
@@ -82,24 +84,8 @@
     border: 2.5px solid #5f87aa;
     transition: .5s;
 }
-.file-text input{
-    display: none;
-}
-.file-text label{
-    display: block;
-    padding: 3px;
-    background-color: #295276;
-    border: none;
+button{
     cursor: pointer;
-    text-align: center;
-    border-radius: 5px;
-}
-.file-text label:hover{
-    background-color:#5f87aa;
-}
-.file-container{
-    display: flex;
-    justify-content: center;
 }
 
 /*Contact info*/
@@ -107,18 +93,24 @@
     background:#fdf6e6;
     color: #112934;
 }
-.info-container h4,
-.info-container ul,
-.info-container p{
+.info-container h4{
+    font-size: 20px;
     text-align: center;
     margin: 0 0 1rem;
+}
+.info-container ul{
+    text-align: center;
+    margin: 0 0 1rem;
+}
+.info-container p{
+    font-size: 18px;
 }
 .info-container ul{
     list-style: none;
     padding: 0;
 }
 .info-container ul li{
-    padding: .3em;
+    padding: .6em;
 }
 .info-container .fa-arrow-down{
     text-align: center;
@@ -127,15 +119,28 @@
     font-size: 40px;
     margin-top: 20px;
 }
-button{
-    cursor: pointer;
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.tarjet-contact{
+    width: 16%;
+}
+.tarjet-contact img{
+    width: 95%;
+}
+.tarjet-contact img:hover{
+    width: 100%;
 }
 
 /*RESPONSIVE DESIGN*/
 @media (min-width: 850px){
     .contact-container{
         display: grid;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 3fr 1.8fr;
     }
 }
 @media screen and (max-width: 850px){

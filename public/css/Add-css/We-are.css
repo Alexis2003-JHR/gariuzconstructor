@@ -28,6 +28,10 @@
 .header h1 span{
     color: #5f87aa;
 }
+.we-contact i{
+    font-size: 38px;
+    color: #112934;
+}
 .mis-vis{
     display: flex;
     flex-wrap: wrap;

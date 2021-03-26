@@ -62,6 +62,16 @@
     font-size: 40px;
     text-align: center;
 }
+.tarjet-quality p a{
+    border-bottom: 2px solid #112934;
+    font-weight: 500px;
+    color: #112934;
+}
+.tarjet-quality p a:hover{
+    border-bottom: 2px solid #1c5874;
+    color:#1c5874;
+    transition: .6s;
+}
 .fa-briefcase{
     color: rgb(119, 89, 61);
 }
@@ -71,18 +81,23 @@
 .fa-building{
     color: #b70e21;
 }
+.fa-list-alt{
+    color: #1c5874;
+}
 /*Business ethics*/
 .ethics-container{
     padding: 20px 0;
     margin: 20px 0;
     border-top: 2px solid #112934;
+    line-height: 150%;
 }
 .ethics-container h1{
     text-align: center;
+    margin: 25px 0;
 }
 .ethics-container p{
     text-align: center;
-    margin: 10px 50px;
+    margin: 0px 50px;
 }
 
 /*RESPONSIVE DESIGN*/

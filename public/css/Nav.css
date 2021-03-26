@@ -23,7 +23,7 @@ ul{
 
 .nav-main ul{
     display: flex;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .nav-main ul li{
     padding: 10px;
@@ -32,6 +32,7 @@ ul{
     padding: 3px;
 }
 .nav-text{
+    text-align: center;
     cursor: pointer;
 }
 .nav-text:hover{
