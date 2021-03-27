@@ -11,7 +11,8 @@ $(document).ready(function(){
     });
 });
 
-/*Arrow up*/
+/*Home buttom*/
+
 $(document).ready(function(){
     $(".btn-home").click(function(){
         $("body, html").animate({
@@ -26,5 +27,4 @@ $(document).ready(function(){
             $(".btn-home").slideUp(300);
         }
     });
-
 });

@@ -29,7 +29,7 @@
 }
 .work-container form{
     display: grid;
-    grid-template-columns: 0.9fr;
+    grid-template-columns: 50% 50%;
 }
 
 .work-container form .block{
@@ -83,14 +83,26 @@
 .work-box:hover{
     background-color: #000000;
     color: #ffffff;
-    border: 1px solid #000000;
     transition: .8s;
 }
 button{
     cursor: pointer;
 }
 
+/*Home button*/
+.btn-home-work i{
+    background: #000000; 
+    color: #ffffff;
+    z-index: 1;
+}
+.btn-home-work i:hover{
+    background: #ffffff; 
+    color: #000000;
+    z-index: 1;
+}
+
 /*RESPONSIVE DESIGN*/
+
 @media (max-width: 800px){
     .contact-container{
         display: grid;

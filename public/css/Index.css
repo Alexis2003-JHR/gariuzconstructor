@@ -71,14 +71,16 @@ body{
     margin-top: 20px;
 }
 .tarjet img{
-    width:70%;
+    width: 70%;
     opacity: 0.8;
 }
 .tarjet img:hover{
     opacity: 1;
     transition: 1s;
 }
+
 /*Button tarjet*/
+
 .tarjet-btn{
     margin-top: 10px;
     position: relative;
@@ -146,6 +148,9 @@ body{
     width: 100%;
     text-align: center;
 }
+
+/*Home button*/
+
 .btn-home{
     display: none;
     position: fixed;
@@ -172,6 +177,10 @@ body{
     color: rgb(17, 41, 52);
     box-shadow: 0 0 15px 0 rgba(17, 41, 52, 0.3);
     transition: .6s;
+}
+.home-work i:hover{
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
 }
 
 /*RESPONSIVE DESIGN*/

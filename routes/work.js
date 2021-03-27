@@ -6,17 +6,34 @@ const router = express.Router();
 router.post("/work-email", (req,res) => {
     const {name, email, phone, tel, city, work, message, page} = req.body;
     const contentHTML = `
-    <div style= "background-color: #fdf6e6; color: #112934; margin: 20px; padding:40px">
-    <h1 style= "text-align: center; border-bottom: 2px solid #112934">Alguien quiere trabajar con nosotros.</h1>
+    <div style= "background-color: #fdf6e6; color: #112934;">
+    <h1 style= "background-color: #112934; color: #fdf6e6; text-align: center; font-size: 30px; padding: 80px 0;">
+    Alguien quiere trabajar con nosotros</h1>
     <ul style= "list-style: none;">
-    <li  style= "padding-top: 15px;"><b>Nombre:</b> ${name}</li>
-    <li  style= "padding-top: 15px;"><b>Correo:</b> ${email}</li>
-    <li  style= "padding-top: 15px;"><b>Número celular:</b> ${phone}</li>
-    <li  style= "padding-top: 15px;"><b>Número telefónico:</b> ${tel}</li>
-    <li  style= "padding-top: 15px;"><b>Ciudad de residencia:</b> ${city}</li>
-    <li  style= "padding-top: 15px;"><b>Quiere trabajar como:</b> ${work}</li>
-    <li  style= "padding-top: 15px;"><b>Descripción:</b><p style="margin-right:30px; border-bottom:2px solid #b70e21; margin-left:10px">${message}</p></li>
-    <li  style= "padding-top: 15px;"><b>Hoja de vida:</b> ${page}</li>
+
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Nombre:<br></b> ${name}<br><br></li>
+
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Correo:<br></b> ${email}<br><br></li>
+        
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Número celular:<br></b> ${phone}<br><br></li>
+
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Número telefónico:<br></b> ${tel}<br><br></li>
+
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Ciudad de residencia:<br></b> ${city}<br><br></li>
+
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Quiere trabajar como:<br></b> ${work}<br><br></li>
+
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Descripción:<br></b><p style="margin-right:30px; border-bottom:2px solid #b70e21; margin-left:10px">${message}<br><br></p></li>
+    
+    <li  style= "margin-top: 15px; font-size: 15px; text-align: center">
+        <b>Hoja de vida:<br></b> ${page}<br><br></li>
     </ul>
     `
 
