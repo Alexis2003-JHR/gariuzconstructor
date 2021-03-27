@@ -50,7 +50,6 @@
     border-bottom: 1px solid #d63031;
 }
 .form-container form button{
-    font-family:'Merienda', cursive;
     text-transform: uppercase;
     background: #b70e21;
     color: black;
@@ -111,13 +110,6 @@ button{
 }
 .info-container ul li{
     padding: .6em;
-}
-.info-container .fa-arrow-down{
-    text-align: center;
-    width: 100%;
-    color: #5f87aa;
-    font-size: 40px;
-    margin-top: 20px;
 }
 .contact{
     display: flex;

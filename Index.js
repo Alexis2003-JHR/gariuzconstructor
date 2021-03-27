@@ -9,7 +9,8 @@ app.set("views",__dirname + "/views");
 //Formulario.
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
-app.use(require("./routes/index.js"));
+app.use(require("./routes/contact-form.js"));
+app.use(require("./routes/work.js"));
 
 //General.
 app.use(express.static(__dirname+"/public"));

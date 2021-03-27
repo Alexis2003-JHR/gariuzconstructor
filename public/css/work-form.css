@@ -1,0 +1,115 @@
+/*General*/
+.main-work-container{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background: #212121;
+    color: #ffffff;
+}
+.work-title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.work-title span{
+    color: #873b19;
+}
+.work-container{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    color: #ffffff;
+}
+.work-container > *{
+    padding: 30px;
+}
+/*Form*/
+.work-container{
+    background: #131313;
+}
+.work-container form{
+    display: grid;
+    grid-template-columns: 0.9fr;
+}
+
+.work-container form .block{
+    grid-column: 1 / 3;
+}
+.work-container form p{
+    margin: 0;
+    padding: 1.5em;
+}
+
+.work-container form button,
+.work-container form input,
+.work-container form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color:#fdf6e6;
+    border-bottom: 2px solid #ffffff;
+}
+.work-container form button{
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    background: #000000;
+    color: #fdf6e6;
+    font-size: 15px;
+    padding: 1em;
+    border: none;
+}
+.work-container form button:hover,
+.work-container form button:focus{
+    background: #ffffff;
+    color: #000000;
+    transition: .8s;
+}
+.work-box{
+    background: #ffffff;
+    padding: 8px 100px;
+    border: none;
+    color:#000000;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+    margin-top: 8px;
+}
+.work-box:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    transition: .8s;
+}
+button{
+    cursor: pointer;
+}
+
+/*RESPONSIVE DESIGN*/
+@media (max-width: 800px){
+    .contact-container{
+        display: grid;
+        grid-template-columns: 3fr 1.8fr;
+    }
+    .work-container form .block-r{
+        grid-column: 1 / 3;
+    }
+}
+@media screen and (max-width: 450px){
+    .work-box{
+        padding: 8px 50px;
+    }
+    .main-work-container{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 380px){
+    .work-box{
+        padding: 8px 20px;
+    }
+}

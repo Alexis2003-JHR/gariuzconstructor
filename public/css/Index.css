@@ -182,7 +182,7 @@ body{
         margin-bottom: 10px;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width: 500px){
     /*Main container text*/
     .texts-container{
         width: 92%;
