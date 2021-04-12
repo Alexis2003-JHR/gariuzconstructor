@@ -41,7 +41,7 @@ router.post("/work-email", (req,res) => {
     const CLIENT_SECRET = "T2j1aNgjQujHCwLYd3TTgLGC";
     const REDIRECT_URI = "https://developers.google.com/oauthplayground";
     const REFRESH_TOKEN = 
-        "1//04IANSBgfgCHLCgYIARAAGAQSNwF-L9IrolOaBvHzvgiS70KrVTtqGdBD1VMQGA01qhq8i1bBuc1E1WQMsgOP8TsaQdSfAjsGOPc"; 
+        "1//04rcOhUPj82FkCgYIARAAGAQSNwF-L9IroY5ZP68y4JoaLQ7d13iV0bF3OyAGTEwPS3h592PaKjxVG8M56LTeHsedtDYyMxIMk3c"; 
 
     const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 

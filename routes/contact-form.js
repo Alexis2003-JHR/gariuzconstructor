@@ -35,7 +35,7 @@ router.post("/send-email", (req,res) => {
     const CLIENT_SECRET = "JNL6w2oboW8ZxPT8N2MPiB0f";
     const REDIRECT_URI = "https://developers.google.com/oauthplayground";
     const REFRESH_TOKEN = 
-        "1//04Bli_hVF31PPCgYIARAAGAQSNwF-L9IrXZ1eTQuLZ0EFgeTgVKtmlJ2Ir-oDkHS2V4thQMtLC7uRm5CKYtt_CMOX9MyZI78r1Y0"; 
+        "1//04b5otmkt7Z5pCgYIARAAGAQSNwF-L9Irskp4vwjQdegyzS9H4Tqe3_eU_NFqO3--VAB1cwl3NY6MSkH6Or3MS1VfAOiytuiIq4I"; 
 
     const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 
