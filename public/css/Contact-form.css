@@ -14,11 +14,11 @@
 .contact-title span{
     color: #873b19;
 }
-.contact-container{
+.c-container{
     box-shadow: 0 0 20px 0 rgba(253, 246, 230, 0.3);
     margin-top: 10px;
 }
-.contact-container > *{
+.c-container > *{
     padding: 30px;
 }
 /*Form*/
@@ -129,7 +129,7 @@ button{
 }
 /*RESPONSIVE DESIGN*/
 @media (min-width: 850px){
-    .contact-container{
+    .c-container{
         display: grid;
         grid-template-columns: 3fr 1.8fr;
     }

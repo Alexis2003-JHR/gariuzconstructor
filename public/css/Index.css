@@ -184,7 +184,6 @@ body{
 }
 
 /*RESPONSIVE DESIGN*/
-
 @media screen and (max-width: 800px){
     .tarjet{
         width: 40%;
