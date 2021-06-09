@@ -1,0 +1,123 @@
+a{
+    color: #112934;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-img{
+    width: 90px;
+    margin-left: 60px;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf6e6;
+    font-size: 17px;
+    height: 80px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+/*Nav text*/
+
+.nav-main ul{
+    display: flex;
+    margin-right: 20px;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul li a{
+    padding: 3px;
+}
+.nav-text{
+    text-align: center;
+    cursor: pointer;
+}
+.nav-text:hover{
+    border-bottom: 2.5px solid #112934;
+}
+
+/*Menu desplegable*/
+
+.text-des a{
+    color: #fdf6e6;
+    border-bottom: none;
+}
+.text-des a:hover{
+    border-bottom: 2.5px solid #fdf6e6;
+}
+.nav-menu > li{
+    display: block;
+}
+.nav-menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: #112934d9;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-menu li:hover > ul{
+    display: block;
+    z-index: 1;
+}
+/*Hamburguer btn*/
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    display:none;
+    z-index: 2;
+    font-size: 2rem;
+}
+
+/*Responsive*/
+@media screen and (max-width:650px){
+    .menu-btn{
+        display: block;
+    }
+    .nav-main a{
+        color: #fdf6e6;
+    }
+    .nav-main ul.nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        align-items: center;
+        top: 0;
+        left: 0;
+        background: #112934;
+        width: 50%;
+        height: 100%;
+        z-index: 1;
+        opacity: .9;
+        transform: translateX(-800px);
+        transition: transform .5s ease-in-out;
+    }
+    .nav-main ul.nav-menu.show{
+        transform: translateX(0);
+    }
+    .nav-main ul.nav-menu li{
+        text-align: center;
+        width: 100%;
+    }
+    /*Menu desplegable*/
+    .nav-main ul li a:hover{
+        border-bottom: 2.5px solid #fdf6e6;
+    }
+    .nav-menu li ul{
+        min-width: 140px;
+        background-color: #112934;
+        border: 2px solid #041924;
+        color: #112934;
+    }
+    .nav-menu li:hover > ul{
+        top: 45%;
+        display:inline-block;
+        z-index: 1;
+        max-width: 300px;
+    }
+}
